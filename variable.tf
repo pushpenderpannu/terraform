@@ -14,7 +14,7 @@ variable "history_star_ecs_task_name" {}
 variable "history_star_ecs_task_runner_role" {}
 variable "history_star_ecs_cpu_size" {}
 variable "history_star_ecs_memory_size" {}
-variable "history_star_ecs_image_url" {}
+variable "history_star_ecs_image_name" {}
 
 # ECS Event bridge variables
 variable "history_star_sqs_task_event_bridge_name" {}
